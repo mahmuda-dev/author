@@ -1,0 +1,373 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* common css end */
+/* navbar css start */
+#navbar{
+    height: 100px;
+    background: #ffffff;
+}
+.nav-wrapper{
+    display: flex;
+}
+.logo{
+    width: 20%;
+    padding-top: 30px;
+}
+.nav-item{
+    width: 80%;
+}
+.nav-item ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item ul li{
+    margin-left: 30px;
+}
+.nav-item ul li a{
+    color:black;
+    font-size: 15px;
+    text-transform:capitalize;
+    padding: 43px 30px 40px;
+    transition: all linear 0.4s;
+}
+.nav-item ul li a:hover{
+    color:#49cbcd;
+    background: #f8f9fb;
+    border-bottom: 4px solid #49cbcd;
+}
+
+/* navbar css end */
+
+#banner{
+    background: url(../images/banner-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 136px;
+    padding-bottom: 144px;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h1{
+    font-size: 63px;
+    font-weight: 600;
+    color: #fff;
+}
+.banner-text p{
+    width: 350px;
+    padding-top: 30px;
+    font-size: 23px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+.button button{
+     padding: 20px 38px;
+     border: 3px solid #fff;
+     border-radius: 5px;
+     background: none;
+     color: #fff;
+}
+.button{
+    text-align: center;
+    padding-top: 55px;
+}
+
+
+
+
+
+.service-item{
+    padding-top: 104px;
+    text-align: center;
+}
+.service-item h3{
+    padding-top: 48px;
+    padding-bottom: 24px;
+    color: #4e525d;
+}
+.service-item p{
+    padding-bottom: 20px;
+    width: 248px;
+    text-align: center;
+    margin: 0 auto;
+    color: #4e525d;
+}
+.service-item  i{
+    margin: 0 auto;
+    border: 4px solid #49cbcd;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    font-size: 40px;
+    line-height: 98px;
+    text-align: center;
+    color: #49cbcd;
+}
+.service-item button{
+    border: 2px solid #49cbcd;
+    border-radius: 4px;
+    background: #49cbcd;
+    padding: 10px 15px;
+    color: #fff;
+    
+}
+.button-wr{
+    padding-bottom: 97px;
+}
+.service-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#portfolio{
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.port-text{
+    padding-top: 50px;
+    padding-bottom: 65px;
+    text-align: center;
+}
+.port-text h2{
+    font-size: 42px;
+    font-weight: 400;
+    color: #4e525d;
+}
+.port-img-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.port-img-2{
+    display: flex;
+    justify-content: space-between;
+}
+.button-2{
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 104px;
+}
+.button-2 button{
+    padding: 21px 62px 21px 44px;
+    border: 4px solid #49cbcd;
+    border-radius: 5px;
+    background: #49cbcd;
+    color: #fff;
+    font-size: 24px;
+}
+
+
+
+
+.team-text h3{
+    padding-top: 72px;
+    padding-bottom: 118px;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 400;
+}
+.team-design{
+    text-align: center;
+}
+.team-design h4{
+    padding-top: 66px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #4e525d;
+}
+.team-design h5{
+    padding-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4e525d;
+}
+.team-design p{
+    padding-top: 29px;
+    padding-bottom: 114px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4e525d;
+}
+.team-design i{
+    border: 2px solid #eeeef0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    line-height: 150px;
+    text-align: center;
+    background: #eeeef0;
+    color: #eeeef0;
+    font-size: 40px;
+    transition: all linear 0.4s;
+}
+.team-design i:hover{
+    color: #f46d6d;
+}
+.team-design p{
+    width: 245px;
+    margin: 0 auto;
+}
+.team-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-text{
+    text-align: center;
+}
+
+.client-text h5 {
+    width: 425px;
+    margin: 0 auto;
+}
+.client-text h3{
+    font-size: 42px;
+    font-weight: 400;
+    padding-bottom: 36px;
+    color: #4e525d;
+}
+.client-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 38px;
+    color: #7d8086;
+}
+.client-text p{
+    font-size: 21px;
+    font-weight: 400;
+    padding-bottom: 103px;
+    color: #b1a9c1;
+}
+.client-text{
+    position: relative;
+}
+.left1{
+    top: 35%;
+    left: 150px;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    color:#9c9c9c;
+    font-size: 25px;
+}
+.right1{
+    top: 35%;
+    right: 150px;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color:#9c9c9c;
+    transform: translateY(-50%);
+    font-size: 25px;
+}
+
+
+
+
+
+#footer{
+    background: url(../images/footimg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 103px;
+    padding-bottom: 98px;
+}
+.footer-text{
+    color: #fff;
+    text-align: center;
+}
+.footer-text h2{
+    font-size: 28px;
+    font-weight: 400;
+}
+.footer-de-text{
+    width: 50%;
+}
+.footer-form-text{
+    width: 50%;
+}
+.footer-de-text h3{
+    color: #fff;
+    padding-bottom: 17px;
+    padding-top: 119px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.footer-de-text h5{
+    color: #8f8f8f;
+    font-size: 16px;
+    font-weight: 400;
+}
+.icon-design i{
+    border: 2px solid #3b5997;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 23px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    margin-right: 14px;
+    margin-top: 38px;
+    margin-bottom: 21px;
+}
+.bottom-text ul li{
+    padding-bottom: 14px;
+    color: #bface2;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-de-text{
+    width: 435px;
+}
+
+
+.footer-form-text {
+    margin-top: 114px;
+    margin-left: 320px;
+}
+.footer-form-text form input, textarea{
+    border-radius: 3px;
+    border: none;
+    padding: 15px 20px;
+}
+.Email{
+    margin-left: 10px;
+}
+.form-button button{
+    padding: 15px 60px;
+    border: none;
+    background: #49cbcd;
+    color:#fff;
+    font-size: 22px;
+    margin-top: 32px;
+    margin-left: 239px;
+    border-radius: 3px;
+    font-family:'Open Sans', sans-serif ;
+    font-weight: 600;
+}
+.footer-main-design{
+    display: flex;
+}
